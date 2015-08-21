@@ -12,6 +12,9 @@
 #	This script is part of the "utils" section of the StructuralInspectionPlanner
 #	Toolbox. A set of elementary components are released together with this 
 #	path-planning toolbox in order to make further developments easier. 
+# 	
+#	Authors: 
+#	Kostas Alexis (kalexis@unr.edu)
 # 
 import os
 import math
