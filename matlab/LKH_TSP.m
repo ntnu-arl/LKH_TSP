@@ -16,6 +16,7 @@ function TSPsolution = LKH_TSP(CostMatrix,pars_struct,fname_tsp,LKHdir,TSPLIBdir
 %                   : -> CostMatrixMulFactor (value that makes Cost Matrix
 %                        almost integer. [eg. pars_struct.CostMatrixMulFactor = 1000; ]
 %                     -> user_comment (a user comment for the problem) [optional]
+%   fname_tsp       : the filename to save the tsp problem
 %   LKHdir          : the directory of the LKH executable
 %   TSPLIBdir       : the directory of the TSPLIB files
 %   
