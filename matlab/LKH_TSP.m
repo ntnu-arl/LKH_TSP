@@ -11,11 +11,11 @@ function TSPsolution = LKH_TSP(CostMatrix,pars_struct,fname_tsp,LKHdir,TSPLIBdir
 %   check the aforementioned url. 
 %
 %   Inputs:
-%   CostMatrix      : the Cost Matrix of the (asymmetric) TSP
+%   CostMatrix      : the Cost Matrix of the (asymmetric) TSP. [e.g. it can be an NxN matrix of distances]
 %   pars_struct     : parameters structure with
 %                   : -> CostMatrixMulFactor (value that makes Cost Matrix
-%                        almost integer 
-%                     -> user_comment (a user comment for the problem)
+%                        almost integer. [eg. pars_struct.CostMatrixMulFactor = 1000; ]
+%                     -> user_comment (a user comment for the problem) [optional]
 %   LKHdir          : the directory of the LKH executable
 %   TSPLIBdir       : the directory of the TSPLIB files
 %   
